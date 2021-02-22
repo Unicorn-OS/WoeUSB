@@ -1,0 +1,9 @@
+---
+- name: Add repository
+  apt_repository:
+    repo: ppa:tomtomtom/woeusb
+
+- name: Install
+  apt:
+    name: woeusb
+    state: present
