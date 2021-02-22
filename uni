@@ -1,9 +1,4 @@
 ---
-
-
 - hosts: local
   roles:
-    - template/gpu
-    - template/gui
-    - this
-    # - test/run
+    - woeusb
