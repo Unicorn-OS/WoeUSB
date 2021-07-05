@@ -9,3 +9,11 @@
     name: woeusb
     state: present
   become: true
+
+
+- name: Install
+  apt:
+    name: woeusb-frontend-wxgtk
+    state: present
+  become: true
+  when: gui = true
