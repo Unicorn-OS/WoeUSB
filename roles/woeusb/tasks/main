@@ -11,9 +11,9 @@
   become: true
 
 
-- name: Install
+- name: Graphics
   apt:
     name: woeusb-frontend-wxgtk
     state: present
   become: true
-  when: gui = true
+  when: graphics = true
