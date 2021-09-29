@@ -16,4 +16,4 @@
     name: woeusb-frontend-wxgtk
     state: present
   become: true
-  when: graphics = true
+  when: graphics == true
