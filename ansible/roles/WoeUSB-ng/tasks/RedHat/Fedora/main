@@ -1,0 +1,16 @@
+---
+- name: Install dependencies
+  ansible.builtin.dnf:
+    name:
+      - git
+      - p7zip
+      - p7zip-plugins
+      - python3-pip
+      - python3-wxpython4
+    state: latest
+  become: true
+
+- name: Install WoeUSB-ng
+  ansible.builtin.pip:
+    name: WoeUSB-ng
+  become: true
