@@ -1,7 +1,11 @@
 ---
-- name: Install
+- name: install woeusb
+  become: true
   ansible.builtin.dnf:
     name:
       - WoeUSB
     state: latest
-  become: true
+
+- include_role:
+    name: gui/WoeUSB-frontend-wxgtk
+  when: gui

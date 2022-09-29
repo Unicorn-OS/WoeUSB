@@ -1,4 +1,7 @@
 ---
 - hosts: local
+  vars:
+    # source: snap
+    next_gen: false
   roles:
     - woeusb
