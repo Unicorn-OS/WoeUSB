@@ -1,1 +1,5 @@
-sudo woeusb --device Win11_22H2_English_x64.iso /dev/sdXY
+iso=22621.525.220925-0207.ni_release_svc_refresh_CLIENTENTERPRISEEVAL_OEMRET_x64FRE_en-us.iso
+in=~/Downloads/
+to=/dev/sdXY
+
+sudo woeusb --device $in$iso $to
