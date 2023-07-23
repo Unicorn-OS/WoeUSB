@@ -1,0 +1,4 @@
+vers: "{{ ansible_distribution_major_version }}"
+works_on: {
+  "distro": "Ubuntu", "version": "23.04"
+}

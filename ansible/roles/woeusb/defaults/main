@@ -1,4 +1,4 @@
 ---
 source: package
 # source: snap
-graphics: true
+graphics: false

@@ -8,4 +8,4 @@
 
 - include_role:
     name: gui/WoeUSB-frontend-wxgtk
-  when: gui
+  when: graphics
