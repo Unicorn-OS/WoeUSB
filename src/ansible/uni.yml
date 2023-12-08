@@ -1,8 +1,8 @@
 ---
 - hosts: localhost
   vars:
-    # source: snap
     ansible_become_password: u
     next_gen: false
   roles:
-    - woeusb
+    # - woeusb
+    - WoeUSB-ng

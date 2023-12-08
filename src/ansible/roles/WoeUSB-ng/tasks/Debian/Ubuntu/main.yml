@@ -1,0 +1,40 @@
+---
+# https://github.com/WoeUSB/WoeUSB-ng
+
+- name: Install prereqs
+  ansible.builtin.apt:
+    pkg:
+    - git
+    - p7zip-full
+    - python3-pip
+    - python3-wxgtk4.0
+    - grub2-common
+    - grub-pc-bin
+    - parted
+    - dosfstools
+    - ntfs-3g
+  become: true
+
+- name: Install PipX
+  ansible.builtin.apt:
+    pkg:
+    - pipx
+  become: true
+
+- name: Install Dependencies
+  ansible.builtin.apt:
+    pkg:
+    - python3-wxgtk4.0
+    - build-essential
+    - libgtk-3-dev
+  become: true
+
+# - name: Install via PipX
+#   community.general.pipx:
+#     name: WoeUSB-ng
+
+# - name: Install via Pip
+#   ansible.builtin.pip:
+#     name: WoeUSB-ng
+#     virtualenv: /opt/woeusb-ng/venv
+#     virtualenv_python: python3
