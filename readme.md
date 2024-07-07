@@ -9,7 +9,7 @@ sudo apt install git ansible-core -y
 
 # Install
 git clone https://github.com/Unicorn-OS/Windows-WoeUSB.git
-cd Windows-WoeUSB/ansible
+cd Windows-WoeUSB/src/ansible
 ansible-playbook uni
 ```
 now 'WoeUSB' is available in your app launcher.
