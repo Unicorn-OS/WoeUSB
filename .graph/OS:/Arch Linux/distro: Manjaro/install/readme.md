@@ -1,3 +1,9 @@
+os family: Arch Linux  
+distro: Manjaro  
+status: works!
+
+source:
+```
 # Dependencies
 sudo pacman -S patch yay
 
@@ -7,3 +13,4 @@ sudo pacman -S --needed base-devel
 # Build from source:
 # https://github.com/WoeUSB/WoeUSB-ng?tab=readme-ov-file#arch
 yay -S woeusb-ng
+```
