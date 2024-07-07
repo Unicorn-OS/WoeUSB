@@ -3,6 +3,11 @@ Use this to create a Windows install USB from Linux!
 
 ## Install:
 ```
+# Prerequisite
+## Ubuntu
+sudo apt install git ansible-core -y
+
+# Install
 git clone https://github.com/Unicorn-OS/Windows-WoeUSB.git
 cd Windows-WoeUSB/ansible
 ansible-playbook uni
