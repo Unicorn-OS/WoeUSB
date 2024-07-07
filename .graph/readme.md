@@ -1,12 +1,12 @@
 # WoeUSB-ng
-## Home:
-https://github.com/WoeUSB/WoeUSB-ng
+# Home:
+https://github.com/WoeUSB
 
-# WoeUSB (original)
-## Home:
-https://github.com/WoeUSB/WoeUSB
+## repo:
+- https://github.com/WoeUSB/WoeUSB
+- https://github.com/WoeUSB/WoeUSB-ng
 
-## install:
+# install:
 https://linux.how2shout.com/how-to-install-woeusb-on-ubuntu-20-04-lts/
 
 # usage:
