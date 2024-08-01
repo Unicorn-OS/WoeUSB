@@ -1,7 +1,6 @@
 ---
-- hosts: localhost
+- hosts: fedora #,archlinux # These two distros work!
   vars:
-    ansible_become_password: u
     next_gen: false
   roles:
     # - woeusb
