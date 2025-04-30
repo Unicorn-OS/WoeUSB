@@ -1,7 +1,7 @@
 ---
-- hosts: fedora #,archlinux # These two distros work!
+- hosts: localhost, #node
   vars:
-    next_gen: false
+    next_gen: true
   roles:
-    # - woeusb
-    - WoeUSB-ng
+#    - UniInc.WoeUSB-ng
+    - ansible-role-WoeUSB-ng

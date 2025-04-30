@@ -1,0 +1,9 @@
+---
+roles:
+- UniInc.WoeUSB
+- UniInc.WoeUSB-ng
+- UniInc.aur-builder-user	# || aur_builder-use
+# - UniInc.Podman
+
+collections:
+  - name: kewlfft.aur
