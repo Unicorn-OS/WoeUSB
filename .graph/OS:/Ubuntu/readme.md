@@ -5,3 +5,9 @@ sudo apt install git p7zip-full python3-pip python3-wxgtk4.0 grub2-common grub-p
 
 sudo pip3 install WoeUSB-ng
 ```
+
+# with Python Pip
+```
+mkdir try; cd try
+python3 -m venv .venv
+```
