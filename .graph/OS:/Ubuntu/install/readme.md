@@ -4,6 +4,9 @@ https://github.com/WoeUSB/WoeUSB-ng
 ```
 sudo apt install git p7zip-full python3-pip python3-wxgtk4.0 grub2-common grub-pc-bin parted dosfstools ntfs-3g
 
+# Fixes: wxPython build
+sudo apt install libgtk-3-dev
+
 mkdir try; cd try
 python3 -m venv .venv
 source .venv/bin/activate
